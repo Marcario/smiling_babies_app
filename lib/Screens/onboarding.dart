@@ -33,7 +33,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       body: Stack(
         children: [
           Container(
-            color: Colors.blueGrey, // Set the background color
+            color: Colors.lightBlueAccent, 
             child: PageView.builder(
               controller: _pageController,
               itemCount: _onboardingItems.length,
@@ -65,7 +65,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   },
                   child: Text(
                     'Back',
-                    style: TextStyle(color: Colors.white), // Set the text color
+                    style: TextStyle(color: Colors.black), // Set the text color
                   ),
                 ),
                 ElevatedButton(
@@ -82,7 +82,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   },
                   child: Text(
                     _currentPage < _onboardingItems.length - 1 ? 'Next' : 'Get Started',
-                    style: TextStyle(color: Colors.white), // Set the text color
+                    style: TextStyle(color: Colors.black), // Set the text color
                   ),
                 ),
               ],
@@ -123,7 +123,7 @@ class OnboardingItemWidget extends StatelessWidget {
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
-            color: Colors.white, // Set the text color
+            color: Colors.black, 
           ),
         ),
         SizedBox(height: 20),
@@ -131,7 +131,7 @@ class OnboardingItemWidget extends StatelessWidget {
           item.description,
           style: TextStyle(
             fontSize: 18,
-            color: Colors.grey[200], // Set the text color
+            color: Colors.black, 
           ),
           textAlign: TextAlign.center,
         ),

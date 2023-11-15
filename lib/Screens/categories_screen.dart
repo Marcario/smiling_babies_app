@@ -183,13 +183,13 @@ class ClothesCategory extends StatelessWidget {
             ),
             CategoryItem(
               imageAsset: 'assets/images/baby sac.png',
-              label: 'Clothing Item 3',
+              label: 'Baby sac',
                 description: '', 
                price:2000,
             ),
             CategoryItem(
               imageAsset: 'assets/images/girl wear.png',
-              label: 'Clothing Item 4',
+              label: 'Girl waer',
                 description: '', 
                price:2000,
             ),

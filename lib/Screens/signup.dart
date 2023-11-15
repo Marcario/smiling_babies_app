@@ -8,7 +8,7 @@ class signup extends StatelessWidget {
       appBar: AppBar(
         title: Text('Sign Up'),
       ),
-      backgroundColor: Colors.blueGrey, // Set the background color
+      backgroundColor: Colors.lightBlueAccent, // Set the background color
       body: Center( // Center the contents vertically and horizontally
         child: Padding(
           padding: EdgeInsets.all(16.0),

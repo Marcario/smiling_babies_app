@@ -92,7 +92,7 @@ class _HomePageState extends State<homepage> with SingleTickerProviderStateMixin
         ),
       ),
       body:Container(
-        color: Colors.blueGrey,
+        color: Colors.lightBlueAccent,
       child: TabBarView(
         controller: _tabController,
         children: [

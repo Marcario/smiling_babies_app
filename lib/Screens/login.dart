@@ -41,7 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
       appBar: AppBar(
         title: Text('Login'),
       ),
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.lightBlueAccent,
       body: Center(
         child: Padding(
           padding: EdgeInsets.all(16.0),
@@ -85,7 +85,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (context) => signup()));
                 },
-                child: Text('Don\'t have an account? Sign Up'),
+                child: Text('Don\'t have an account? Sign Up',),
               ),
             ],
           ),

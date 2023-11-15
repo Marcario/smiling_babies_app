@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     // Add a timer to delay the transition to the onboarding screens
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 6), () {
       // Navigate to the onboarding screens
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => OnboardingScreen()));
     });
@@ -22,22 +22,22 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey, // Background color
+      backgroundColor: Colors.lightBlueAccent, // Background color
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
               'assets/images/babylogo.png', // Replace with the path to your baby graphic
-              width: 200, // Adjust the size as needed
-              height: 200,
+              width: 150, // Adjust the size as needed
+              height: 150,
             ),
-            SizedBox(height: 16),
+            SizedBox(height: 18),
             Text(
-              'SMILING BABIES UGANDA',
+              ' WELCOME TO SMILING BABIES UGANDA',
               style: TextStyle(
-                fontSize: 24,
-                color: Colors.white,
+                fontSize: 20,
+                color: Colors.black,
                 fontWeight: FontWeight.bold,
               ),
             ),

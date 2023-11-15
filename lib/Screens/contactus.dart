@@ -23,9 +23,11 @@ class contactus extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                'Get in Touch',
+                'Get in Touch with Smiling'
+                       'Babies Uganda',
+                
                 style: TextStyle(
-                  fontSize: 24.0,
+                  fontSize: 20.0,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -33,6 +35,7 @@ class contactus extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
+                
                 'Connect with us on social media:',
                 style: TextStyle(
                   fontSize: 18.0,
